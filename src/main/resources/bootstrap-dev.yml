@@ -1,0 +1,16 @@
+server:
+  port: 10001
+  servlet:
+    context-path: /cms
+spring:
+  datasource:
+    mysql:
+        type: com.zaxxer.hikari.HikariDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        jdbc-url: jdbc:mysql://172.16.198.10:3311/zntj?useUnicode=true&characterEncoding=UTF-8&rewriteBatchedStatements=true&autoReconnect=true&failOverReadOnly=false&zeroDateTimeBehavior=convertToNull&useSSL=false
+        username: JRJ_zntj
+        password: gWQwQDBmtZMJ3xwTdF39
+
+
+
+
